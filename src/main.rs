@@ -1,3 +1,5 @@
+use calendar::calories;
+mod calendar;
 fn main() {
-    println!("Hello, world!");
+    calories::solve();
 }
